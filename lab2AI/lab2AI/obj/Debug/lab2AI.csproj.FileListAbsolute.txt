@@ -1,0 +1,15 @@
+C:\labAI\lab2AI\lab2AI\bin\Debug\lab2AI.exe.config
+C:\labAI\lab2AI\lab2AI\bin\Debug\lab2AI.exe
+C:\labAI\lab2AI\lab2AI\bin\Debug\lab2AI.pdb
+C:\labAI\lab2AI\lab2AI\obj\Debug\lab2AI.csprojAssemblyReference.cache
+C:\labAI\lab2AI\lab2AI\obj\Debug\lab2AI.Form1.resources
+C:\labAI\lab2AI\lab2AI\obj\Debug\lab2AI.Node.resources
+C:\labAI\lab2AI\lab2AI\obj\Debug\lab2AI.Properties.Resources.resources
+C:\labAI\lab2AI\lab2AI\obj\Debug\lab2AI.csproj.GenerateResource.cache
+C:\labAI\lab2AI\lab2AI\obj\Debug\lab2AI.csproj.CoreCompileInputs.cache
+C:\labAI\lab2AI\lab2AI\obj\Debug\lab2AI.exe
+C:\labAI\lab2AI\lab2AI\obj\Debug\lab2AI.pdb
+C:\labAI\lab2AI\lab2AI\obj\Debug\lab2AI.Intro.resources
+C:\labAI\lab2AI\lab2AI\obj\Debug\lab2AI.Alert.resources
+C:\labAI\lab2AI\lab2AI\obj\Debug\lab2AI.NrNeuroni.resources
+C:\labAI\lab2AI\lab2AI\obj\Debug\lab2AI.RightNode.resources
