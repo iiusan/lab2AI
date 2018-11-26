@@ -35,6 +35,11 @@ namespace lab2AI
         {
             return Convert.ToDouble(value);
         }
+
+        public static decimal ToDecimal(this double value)
+        {
+            return Convert.ToDecimal(value);
+        }
         public static List<int> ToIntList(this List<NrNeuroni> value)
         {
             List<int> list = new List<int>();

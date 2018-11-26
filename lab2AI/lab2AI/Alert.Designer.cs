@@ -34,44 +34,45 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.nUD_inW = new System.Windows.Forms.NumericUpDown();
-            this.label4 = new System.Windows.Forms.Label();
-            this.nUD_inX = new System.Windows.Forms.NumericUpDown();
-            this.label5 = new System.Windows.Forms.Label();
-            this.nUD_gin = new System.Windows.Forms.NumericUpDown();
-            this.nUD_act = new System.Windows.Forms.NumericUpDown();
-            this.nUD_out = new System.Windows.Forms.NumericUpDown();
-            this.p_int = new System.Windows.Forms.Panel();
             this.p_allNodes = new System.Windows.Forms.Panel();
-            this.nUD_initOut = new System.Windows.Forms.NumericUpDown();
-            this.label6 = new System.Windows.Forms.Label();
-            this.l_func = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tB_binary = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.p_tVal = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.nUP_t = new System.Windows.Forms.NumericUpDown();
             this.p_gVal = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.nUP_ga = new System.Windows.Forms.NumericUpDown();
-            this.tB_binary = new System.Windows.Forms.CheckBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.p_tVal = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.nUP_t = new System.Windows.Forms.NumericUpDown();
+            this.nUD_act = new System.Windows.Forms.NumericUpDown();
+            this.l_func = new System.Windows.Forms.Label();
+            this.nUD_gin = new System.Windows.Forms.NumericUpDown();
+            this.nUD_out = new System.Windows.Forms.NumericUpDown();
+            this.p_int = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.nUD_initOut = new System.Windows.Forms.NumericUpDown();
+            this.nUD_inX = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
+            this.nUD_inW = new System.Windows.Forms.NumericUpDown();
+            this.label5 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUD_inW)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUD_inX)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUD_gin)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUD_act)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUD_out)).BeginInit();
-            this.p_int.SuspendLayout();
             this.p_allNodes.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUD_initOut)).BeginInit();
             this.groupBox1.SuspendLayout();
-            this.p_tVal.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUP_t)).BeginInit();
             this.p_gVal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nUP_ga)).BeginInit();
+            this.p_tVal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nUP_t)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_act)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_gin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_out)).BeginInit();
+            this.p_int.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_initOut)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_inX)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_inW)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -136,140 +137,9 @@
             this.panel2.Size = new System.Drawing.Size(294, 440);
             this.panel2.TabIndex = 0;
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(303, 3);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(490, 440);
-            this.flowLayoutPanel1.TabIndex = 1;
-            this.flowLayoutPanel1.WrapContents = false;
-            // 
-            // nUD_inW
-            // 
-            this.nUD_inW.DecimalPlaces = 2;
-            this.nUD_inW.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            this.nUD_inW.Location = new System.Drawing.Point(33, 21);
-            this.nUD_inW.Minimum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            -2147483648});
-            this.nUD_inW.Name = "nUD_inW";
-            this.nUD_inW.Size = new System.Drawing.Size(91, 20);
-            this.nUD_inW.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 23);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(18, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "W";
-            // 
-            // nUD_inX
-            // 
-            this.nUD_inX.DecimalPlaces = 2;
-            this.nUD_inX.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            this.nUD_inX.Location = new System.Drawing.Point(33, 56);
-            this.nUD_inX.Minimum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            -2147483648});
-            this.nUD_inX.Name = "nUD_inX";
-            this.nUD_inX.Size = new System.Drawing.Size(91, 20);
-            this.nUD_inX.TabIndex = 9;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 58);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(14, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "X";
-            // 
-            // nUD_gin
-            // 
-            this.nUD_gin.DecimalPlaces = 6;
-            this.nUD_gin.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            this.nUD_gin.Location = new System.Drawing.Point(74, 17);
-            this.nUD_gin.Minimum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            -2147483648});
-            this.nUD_gin.Name = "nUD_gin";
-            this.nUD_gin.Size = new System.Drawing.Size(91, 20);
-            this.nUD_gin.TabIndex = 10;
-            // 
-            // nUD_act
-            // 
-            this.nUD_act.DecimalPlaces = 6;
-            this.nUD_act.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            this.nUD_act.Location = new System.Drawing.Point(37, 19);
-            this.nUD_act.Minimum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            -2147483648});
-            this.nUD_act.Name = "nUD_act";
-            this.nUD_act.Size = new System.Drawing.Size(91, 20);
-            this.nUD_act.TabIndex = 11;
-            // 
-            // nUD_out
-            // 
-            this.nUD_out.DecimalPlaces = 6;
-            this.nUD_out.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            this.nUD_out.Location = new System.Drawing.Point(151, 234);
-            this.nUD_out.Minimum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            -2147483648});
-            this.nUD_out.Name = "nUD_out";
-            this.nUD_out.Size = new System.Drawing.Size(91, 20);
-            this.nUD_out.TabIndex = 12;
-            // 
-            // p_int
-            // 
-            this.p_int.Controls.Add(this.label6);
-            this.p_int.Controls.Add(this.nUD_initOut);
-            this.p_int.Controls.Add(this.nUD_inX);
-            this.p_int.Controls.Add(this.label4);
-            this.p_int.Controls.Add(this.nUD_inW);
-            this.p_int.Controls.Add(this.label5);
-            this.p_int.Location = new System.Drawing.Point(21, 300);
-            this.p_int.Name = "p_int";
-            this.p_int.Size = new System.Drawing.Size(258, 103);
-            this.p_int.TabIndex = 13;
-            // 
             // p_allNodes
             // 
+            this.p_allNodes.Controls.Add(this.label10);
             this.p_allNodes.Controls.Add(this.label9);
             this.p_allNodes.Controls.Add(this.tB_binary);
             this.p_allNodes.Controls.Add(this.groupBox1);
@@ -282,42 +152,24 @@
             this.p_allNodes.Size = new System.Drawing.Size(258, 275);
             this.p_allNodes.TabIndex = 14;
             // 
-            // nUD_initOut
+            // label9
             // 
-            this.nUD_initOut.DecimalPlaces = 6;
-            this.nUD_initOut.Enabled = false;
-            this.nUD_initOut.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            this.nUD_initOut.Location = new System.Drawing.Point(167, 40);
-            this.nUD_initOut.Minimum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            -2147483648});
-            this.nUD_initOut.Name = "nUD_initOut";
-            this.nUD_initOut.Size = new System.Drawing.Size(75, 20);
-            this.nUD_initOut.TabIndex = 10;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(75, 236);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(16, 13);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "->";
             // 
-            // label6
+            // tB_binary
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(145, 42);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(16, 13);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "->";
-            // 
-            // l_func
-            // 
-            this.l_func.AutoSize = true;
-            this.l_func.Location = new System.Drawing.Point(141, 22);
-            this.l_func.Name = "l_func";
-            this.l_func.Size = new System.Drawing.Size(28, 13);
-            this.l_func.TabIndex = 13;
-            this.l_func.Text = "func";
+            this.tB_binary.AutoSize = true;
+            this.tB_binary.Location = new System.Drawing.Point(16, 233);
+            this.tB_binary.Name = "tB_binary";
+            this.tB_binary.Size = new System.Drawing.Size(50, 17);
+            this.tB_binary.TabIndex = 15;
+            this.tB_binary.Text = "Binar";
+            this.tB_binary.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -332,42 +184,6 @@
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Activare";
-            // 
-            // p_tVal
-            // 
-            this.p_tVal.Controls.Add(this.label7);
-            this.p_tVal.Controls.Add(this.nUP_t);
-            this.p_tVal.Location = new System.Drawing.Point(23, 61);
-            this.p_tVal.Name = "p_tVal";
-            this.p_tVal.Size = new System.Drawing.Size(181, 37);
-            this.p_tVal.TabIndex = 14;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(25, 16);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(18, 13);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "O-";
-            // 
-            // nUP_t
-            // 
-            this.nUP_t.DecimalPlaces = 2;
-            this.nUP_t.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            this.nUP_t.Location = new System.Drawing.Point(49, 14);
-            this.nUP_t.Minimum = new decimal(new int[] {
-            9999,
-            0,
-            0,
-            -2147483648});
-            this.nUP_t.Name = "nUP_t";
-            this.nUP_t.Size = new System.Drawing.Size(99, 20);
-            this.nUP_t.TabIndex = 6;
             // 
             // p_gVal
             // 
@@ -405,24 +221,223 @@
             this.nUP_ga.Size = new System.Drawing.Size(99, 20);
             this.nUP_ga.TabIndex = 7;
             // 
-            // tB_binary
+            // p_tVal
             // 
-            this.tB_binary.AutoSize = true;
-            this.tB_binary.Location = new System.Drawing.Point(16, 233);
-            this.tB_binary.Name = "tB_binary";
-            this.tB_binary.Size = new System.Drawing.Size(50, 17);
-            this.tB_binary.TabIndex = 15;
-            this.tB_binary.Text = "Binar";
-            this.tB_binary.UseVisualStyleBackColor = true;
+            this.p_tVal.Controls.Add(this.label7);
+            this.p_tVal.Controls.Add(this.nUP_t);
+            this.p_tVal.Location = new System.Drawing.Point(23, 61);
+            this.p_tVal.Name = "p_tVal";
+            this.p_tVal.Size = new System.Drawing.Size(181, 37);
+            this.p_tVal.TabIndex = 14;
             // 
-            // label9
+            // label7
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(75, 236);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(16, 13);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "->";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(25, 16);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(18, 13);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "O-";
+            // 
+            // nUP_t
+            // 
+            this.nUP_t.DecimalPlaces = 2;
+            this.nUP_t.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nUP_t.Location = new System.Drawing.Point(49, 14);
+            this.nUP_t.Minimum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            -2147483648});
+            this.nUP_t.Name = "nUP_t";
+            this.nUP_t.Size = new System.Drawing.Size(99, 20);
+            this.nUP_t.TabIndex = 6;
+            // 
+            // nUD_act
+            // 
+            this.nUD_act.DecimalPlaces = 6;
+            this.nUD_act.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nUD_act.Location = new System.Drawing.Point(37, 19);
+            this.nUD_act.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.nUD_act.Name = "nUD_act";
+            this.nUD_act.Size = new System.Drawing.Size(91, 20);
+            this.nUD_act.TabIndex = 11;
+            // 
+            // l_func
+            // 
+            this.l_func.AutoSize = true;
+            this.l_func.Location = new System.Drawing.Point(141, 22);
+            this.l_func.Name = "l_func";
+            this.l_func.Size = new System.Drawing.Size(28, 13);
+            this.l_func.TabIndex = 13;
+            this.l_func.Text = "func";
+            // 
+            // nUD_gin
+            // 
+            this.nUD_gin.DecimalPlaces = 6;
+            this.nUD_gin.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nUD_gin.Location = new System.Drawing.Point(74, 17);
+            this.nUD_gin.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.nUD_gin.Name = "nUD_gin";
+            this.nUD_gin.Size = new System.Drawing.Size(91, 20);
+            this.nUD_gin.TabIndex = 10;
+            // 
+            // nUD_out
+            // 
+            this.nUD_out.DecimalPlaces = 6;
+            this.nUD_out.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nUD_out.Location = new System.Drawing.Point(151, 234);
+            this.nUD_out.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.nUD_out.Name = "nUD_out";
+            this.nUD_out.Size = new System.Drawing.Size(91, 20);
+            this.nUD_out.TabIndex = 12;
+            // 
+            // p_int
+            // 
+            this.p_int.Controls.Add(this.label6);
+            this.p_int.Controls.Add(this.nUD_initOut);
+            this.p_int.Controls.Add(this.nUD_inX);
+            this.p_int.Controls.Add(this.label4);
+            this.p_int.Controls.Add(this.nUD_inW);
+            this.p_int.Controls.Add(this.label5);
+            this.p_int.Location = new System.Drawing.Point(21, 300);
+            this.p_int.Name = "p_int";
+            this.p_int.Size = new System.Drawing.Size(258, 103);
+            this.p_int.TabIndex = 13;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(145, 42);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(16, 13);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "->";
+            this.label6.Visible = false;
+            // 
+            // nUD_initOut
+            // 
+            this.nUD_initOut.DecimalPlaces = 6;
+            this.nUD_initOut.Enabled = false;
+            this.nUD_initOut.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nUD_initOut.Location = new System.Drawing.Point(167, 40);
+            this.nUD_initOut.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.nUD_initOut.Name = "nUD_initOut";
+            this.nUD_initOut.Size = new System.Drawing.Size(75, 20);
+            this.nUD_initOut.TabIndex = 10;
+            this.nUD_initOut.Visible = false;
+            // 
+            // nUD_inX
+            // 
+            this.nUD_inX.DecimalPlaces = 2;
+            this.nUD_inX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nUD_inX.Location = new System.Drawing.Point(33, 56);
+            this.nUD_inX.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.nUD_inX.Name = "nUD_inX";
+            this.nUD_inX.Size = new System.Drawing.Size(91, 20);
+            this.nUD_inX.TabIndex = 9;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(13, 23);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(18, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "W";
+            this.label4.Visible = false;
+            // 
+            // nUD_inW
+            // 
+            this.nUD_inW.DecimalPlaces = 2;
+            this.nUD_inW.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nUD_inW.Location = new System.Drawing.Point(33, 21);
+            this.nUD_inW.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.nUD_inW.Name = "nUD_inW";
+            this.nUD_inW.Size = new System.Drawing.Size(91, 20);
+            this.nUD_inW.TabIndex = 7;
+            this.nUD_inW.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 58);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(14, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "X";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(303, 3);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(490, 440);
+            this.flowLayoutPanel1.TabIndex = 1;
+            this.flowLayoutPanel1.WrapContents = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(192, 19);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(28, 13);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "func";
             // 
             // Alert
             // 
@@ -435,24 +450,24 @@
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.nUD_inW)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUD_inX)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUD_gin)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUD_act)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUD_out)).EndInit();
-            this.p_int.ResumeLayout(false);
-            this.p_int.PerformLayout();
             this.p_allNodes.ResumeLayout(false);
             this.p_allNodes.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUD_initOut)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.p_tVal.ResumeLayout(false);
-            this.p_tVal.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUP_t)).EndInit();
             this.p_gVal.ResumeLayout(false);
             this.p_gVal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nUP_ga)).EndInit();
+            this.p_tVal.ResumeLayout(false);
+            this.p_tVal.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nUP_t)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_act)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_gin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_out)).EndInit();
+            this.p_int.ResumeLayout(false);
+            this.p_int.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_initOut)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_inX)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_inW)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -488,5 +503,6 @@
         private System.Windows.Forms.NumericUpDown nUP_t;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.CheckBox tB_binary;
+        private System.Windows.Forms.Label label10;
     }
 }

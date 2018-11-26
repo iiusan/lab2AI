@@ -30,13 +30,13 @@ namespace lab2AI
             if (data.Nodes.Count == 0)
             {
                 p_allNodes.Hide();
-                nUD_inW.ValueChanged += In_ValueChanged;
-                nUD_inW.MouseUp += In_ValueChanged;
-                nUD_inW.KeyUp += In_ValueChanged;
+                //nUD_inW.ValueChanged += In_ValueChanged;
+                //nUD_inW.MouseUp += In_ValueChanged;
+                //nUD_inW.KeyUp += In_ValueChanged;
                 nUD_inX.ValueChanged += In_ValueChanged;
                 nUD_inX.MouseUp += In_ValueChanged;
                 nUD_inX.KeyUp += In_ValueChanged;
-                nUD_inW.Value = data.W;
+              //  nUD_inW.Value = data.W;
                 nUD_inX.Value = data.X;
             }
             else
@@ -45,6 +45,7 @@ namespace lab2AI
                 //get nUD from UC, add value changed  ev.(foreach)
                 nUD_gin.Value = GetIn();
                 l_func.Text = data.ActType;
+                label10.Text = data.InFuncType;
                 Act.ShowControlsFor(data.ActType, p_gVal, p_tVal);
                 UpdateActValue();
                 nUD_gin.ValueChanged += Gin_ValueChanged;
@@ -70,8 +71,8 @@ namespace lab2AI
 
         private void In_ValueChanged(object sender, EventArgs e)
         {
-            nUD_initOut.Value = nUD_inW.Value * nUD_inX.Value;
-
+            // nUD_initOut.Value = nUD_inW.Value * nUD_inX.Value;
+            nUD_initOut.Value = nUD_inX.Value;
         }
 
 
@@ -94,21 +95,19 @@ namespace lab2AI
             {
                 nUD_out.Value = act;
             }
-
+            _data.FormG = nUP_ga.Value.ToDouble();
+            _data.FormT = nUP_t.Value.ToDouble();
+            _data.FormX = nUD_gin.Value.ToDouble();
         }
 
-        /// <summary>
-        /// gets gin(sum only)-produs, ...
-        /// </summary>
-        /// <returns></returns>
         private decimal GetIn()
         {
-            decimal d = 0;
-            foreach (var node in _data.Nodes)
-            {
-                d += node.Out;
-            }
-            return d;
+            //decimal d = 0;
+            //foreach (var node in _data.Nodes)
+            //{
+            //    d += node.Out;
+            //}
+            return Act.GetGinFor(_data).ToDecimal();
         }
     }
 }

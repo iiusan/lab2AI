@@ -13,8 +13,11 @@ namespace lab2AI
     public partial class Node : UserControl
     {
         public AllData NodeData = new AllData();
-
         public decimal Out { set { l_out.Text = value.ToString(); NodeData.TotalOut = value; } get { return l_out.Text.ToDecimal(); } }
+
+        private bool _isSelected = false;
+
+        private Color nodeColor;
 
         public Node()
         {
@@ -24,15 +27,16 @@ namespace lab2AI
 
         private void Node_Load(object sender, EventArgs e)
         {
-            l_out.BackColor = Color.White;
-
+            nodeColor = Color.White;
+            l_out.BackColor = nodeColor;
         }
 
         private void Node_Paint(object sender, PaintEventArgs e)
         {
             Pen pen = new Pen(Color.Black, 2);
             Graphics graphics = e.Graphics;
-            graphics.FillEllipse(Brushes.White, 0, 0, 78, 78);
+            l_out.BackColor = !_isSelected ? Color.White : Color.Orange;
+            graphics.FillEllipse(!_isSelected ? Brushes.White : Brushes.Orange, 0, 0, 78, 78);
             graphics.DrawEllipse(pen, 0, 0, 78, 78);
             pen.Dispose();
         }
@@ -55,11 +59,16 @@ namespace lab2AI
 
         private void OnClick()
         {
-                Alert alert = new Alert(NodeData);
-                alert.ShowDialog();
-                Out = alert.Out;
-                NodeData.W = alert.W;
-                NodeData.X = alert.X;
+            _isSelected = true;
+            this.Refresh();
+            Alert alert = new Alert(NodeData);
+            alert.ShowDialog();
+            Out = alert.Out;
+            _isSelected = false;
+            this.Refresh();
+            NodeData.W = alert.W;
+            NodeData.X = alert.X;
+            NodeData.ParentForm.UpdateEverything();
         }
 
     }

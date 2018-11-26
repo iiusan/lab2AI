@@ -24,6 +24,37 @@ namespace lab2AI
             return 0;
         }
 
+
+        public static double GetGinFor(AllData data)
+        {
+            int count = data.Nodes.Count();
+            string fType = data.InFuncType;
+
+            double results = 0;
+            if (fType == "produs")
+                results = 1;
+            if (fType == "min")
+                results = 999999999999;
+            if (fType == "max")
+                results = -999999999999;
+            for (int i = 0; i < count; ++i)
+            {
+                //  double p = Convert.ToDouble(fP_data.Controls[i].Controls[3].Text) * Convert.ToDouble(fP_data.Controls[i].Controls[2].Text);
+                double p = data.Nodes[i].NodeData.TotalOut.ToDouble();
+                if (fType == "suma")
+                    results += p;
+                if (fType == "produs")
+                    results *= p;
+                if (fType == "min")
+                    results = Math.Min(p, results);
+                if (fType == "max")
+                    results = Math.Max(p, results);
+            }
+
+            return results;
+        }
+
+
         public static void ShowControlsFor(string actType, Panel p_gVal, Panel p_tVal)
         {
             p_gVal.Hide();
